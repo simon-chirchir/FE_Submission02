@@ -6,6 +6,16 @@ function login(username, password) {
       password: password,
       exp: Math.floor(Date.now() / 1000) + 15 * 60, // 15 minutes from now
     };
+    //create a jwt that is valid for 15mins and expires in 30 days.
+    const jwt = require('jsonwebtoken');
+
+const token = jwt.sign({ data: 'foobar' }, 'secret', {
+  expiresIn: '30d',
+  notBefore: '15m'
+});
+
+console.log(token);
+
   
     // Sign the JWT with a secret key and return it
     return jwt.sign(payload, 'secretKey');
