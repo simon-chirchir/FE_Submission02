@@ -11,4 +11,9 @@ valid for 30 days. Make sure to also handle wrong
 credentials properly
 b. Dashboard
 Retrieve the necessary data for the dashboard
-at `https://freddy.codesubmit.io/dashboard`. This 
+at `https://freddy.codesubmit.io/dashboard`. 
+
+# componenets
+1.Readme file
+2. Design folder that contain the project files
+
