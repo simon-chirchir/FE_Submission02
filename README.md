@@ -14,6 +14,6 @@ Retrieve the necessary data for the dashboard
 at `https://freddy.codesubmit.io/dashboard`. 
 
 # componenets
-1.Readme file
+1. Readme file
 2. Design folder that contain the project files
 
